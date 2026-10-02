@@ -33,8 +33,8 @@ LOGO_INSTALLER = os.path.join(ROOT, "frontend", "installer-page", "logo.svg")
 LOGO_AUTOLOADER = os.path.join(ROOT, "frontend", "autoloader", "logo.svg")
 
 VIEWBOX = 1024
-ART_RADIUS = 510.04  # outermost extent of the master art (ring reaches y=1022.08)
-PAD_FRACTION = 0.1
+ART_RADIUS = 512.0
+PAD_FRACTION = 0.0
 SCALE = (1.0 - 2.0 * PAD_FRACTION) * (VIEWBOX / 2.0) / ART_RADIUS
 TRANSLATE = VIEWBOX * (1.0 - SCALE) / 2.0
 ICO_SIZES = [16, 24, 32, 48, 64, 128, 256]

@@ -14,7 +14,7 @@
 #define WKALI_PORT 18181
 
 /* Title ID of the installed homescreen app ("WebKit Autoloader") */
-#define WKAL_TITLE_ID "WKAL00001"
+#define WKAL_TITLE_ID "LDPR00001"
 
 /* Process identity — used to kill stale installer instances on startup */
 #define WKALI_THREAD_NAME "wkali.elf"
